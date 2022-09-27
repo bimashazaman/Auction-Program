@@ -25,7 +25,7 @@ while(not bidding_finished):
     
    # Asking the user for their name and their bid.
     name = input("What is your name? ")
-    price = input("What is your Bid? $")
+    price = int(input("What is your Bid? $"))
     
    # Adding the name and price to the dictionary bids.
     bids[name] = price
